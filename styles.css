@@ -1,0 +1,140 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+.hide-loading {
+  display: none;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa; /* Background color for the entire page */
+}
+
+.searchTerm {
+  border: 3px solid #707072;
+  padding: 5px;
+  height: 40px;
+  width: 40%;
+  border-radius: 5px;
+  outline: none;
+  font-family: "open sans";
+  color: #9dbfaf;
+}
+
+.searchTerm:focus {
+  color: #2e2f30;
+}
+
+.container {
+  max-width: 800px; /* Adjust the max-width as needed */
+  margin: 20px auto; /* Center the container horizontally with top and bottom margin */
+  padding: 20px;
+  background-color: #fff; /* Background color for the container */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for the container */
+}
+
+.search-form {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.cocktails {
+  display: grid;
+  justify-items: center; /* Center the drinks horizontally within the grid */
+}
+
+.cocktails-header {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333; /* Color for the header */
+}
+
+.cocktail {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.section-center {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+/* Adjust styling for the image and other elements inside each cocktail */
+.cocktail img {
+  height: 300px;
+  width: 300px;
+  border-bottom: 1px solid #ccc; /* Add a border at the bottom of the image */
+}
+
+.cocktail h3 {
+  text-align: center;
+  margin: 15px 0; /* Add margin top and bottom to the heading */
+  font-size: 18px;
+}
+
+.cocktail p {
+  text-align: center;
+  margin: 0;
+  color: #666; /* Color for the paragraph */
+}
+
+.loading img {
+  width: 100px; /* Adjust the width as needed */
+}
+
+.single-drink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px; /* Add margin space at the top */
+}
+
+.drink-img {
+  width: 300px; /* Adjust the width of the drink image */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 5px;
+  margin-bottom: 20px; /* Add margin space at the bottom */
+}
+
+.drink-info {
+  text-align: center;
+}
+
+.drink-name {
+  font-size: 24px;
+  margin-bottom: 10px; /* Add margin space below the drink name */
+}
+
+.drink-desc {
+  margin-bottom: 20px; /* Add margin space below the drink description */
+}
+
+.drink-ingredients {
+  list-style-type: none; /* Remove default list styling */
+  padding: 0; /* Remove default padding */
+}
+
+.btn {
+  display: inline-block;
+  background-color: #007bff; /* Bootstrap primary color */
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
